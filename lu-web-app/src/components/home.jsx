@@ -7,15 +7,15 @@ import { Container } from 'react-bootstrap';
 
 const Home = () => {
     return(
-        <Container>
+        <Container class='row'>
             <div>
                 <HomeCarousel/>
             </div>
+            <br/>
              <div>
                 <Aboutus/>       
             </div>
-            
-            <div className='container'>
+            <br/>
             <footer class="footer">
             <div class="container">
                 <div class="row">
@@ -34,11 +34,11 @@ const Home = () => {
                         </ul>
                         <br/>
                     </div>
-                    <div class="col-md-2">
-                        <h5 class="text-md-right">Contact Us</h5>
-                        <hr/>
+                    <div class="col-md-8">
+                        <h5 class="text-md-left">Contact Us</h5>
+                        
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-4">
                         <form>
                             <fieldset class="form-group">
                                 <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email"/>
@@ -54,7 +54,7 @@ const Home = () => {
                 </div>
             </div>
         </footer>
-        </div>
+    
             {/* <div>
                 <Reelcarousel/>
             </div>

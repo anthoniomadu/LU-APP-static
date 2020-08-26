@@ -157,7 +157,7 @@ const App = () => {
       </Router>
     </Container>
     <Container>
-    <div id="footer" className="text-center">© 2020 Copyright:
+    <div  className="footerbt container text-center">© 2020 Copyright:
     <a href="https://mdbootstrap.com/"> Linden Ustawi</a>
     </div>
     </Container>

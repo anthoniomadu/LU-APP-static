@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../components/css/pricing.css'
+import '../css/pricing.css'
 
 
 const PlansList = () => {
